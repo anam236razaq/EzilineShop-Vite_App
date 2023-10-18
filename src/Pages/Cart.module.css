@@ -1,0 +1,92 @@
+.cart {
+  margin: 40px 200px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.cart a {
+  text-decoration: none;
+  color: var(--color-link-1);
+}
+.cart p {
+  margin-left: 24px;
+}
+.productDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--color-border-1);
+}
+.productImg {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  gap: 20px;
+}
+.productImg img {
+  width: 25%;
+  margin-bottom: 10px;
+}
+.productPrice {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btns {
+  margin-left: 40px;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  color: var(--color-btn-2);
+  font-size: 30px;
+}
+.clearBtn,
+.btns a {
+  padding: 16px 24px;
+  font-size: 18px;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--color-btn-2);
+  color: var(--color-light-1);
+  font-weight: 600;
+}
+.clearBtn {
+  margin-left: 20px;
+  background-color: var(--color-link-1);
+}
+.cartTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.totalPrice {
+  display: flex;
+  align-items: center;
+}
+
+/*********UpdateItemQuantity********/
+/**********************************/
+
+.updateQuantity {
+  display: flex;
+  align-items: center;
+}
+.updateQuantity span {
+  border: 1px solid var(--color-border-1);
+  padding: 8px 36px;
+}
+.inQuantityBtn,
+.decQuantityBtn {
+  padding: 10.5px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--color-border-1);
+}
+.inQuantityBtn {
+  border-radius: 30% 0 0 30%;
+}
+.decQuantityBtn {
+  border-radius: 0 30% 30% 0;
+}

@@ -1,0 +1,36 @@
+hr {
+  margin: 0 40px;
+  padding: 2px 0;
+  border: none;
+}
+.products {
+  margin: 30px 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.filterProducts {
+  width: 25%;
+}
+.filterProducts h4 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.productsContainer {
+  width: 75%;
+}
+.mainProducts {
+  margin-top: 30px;
+}
+.btns {
+  width: 70%;
+}
+.techBtn {
+  width: 100%;
+  display: flex;
+  margin-left: 10px;
+  padding: 10px 40px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+}
