@@ -1,0 +1,66 @@
+:root {
+  --color-dark-1: #181818;
+  --color-dark-2: #000000;
+  --color-dark-3: #292929;
+  --color-light-1: #ffffff;
+  --color-btn-1: #27c5f9;
+  --color-hover-1: rgb(42, 4, 133);
+  --color-hover-2: rgb(72, 31, 167);
+  --color-border-1: lightgrey;
+  --color-text-1: rgb(97, 97, 97);
+  --color-link-1: rgb(0, 0, 180);
+  --color-btn-2: rgb(247, 80, 19);
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*******Slick Slider********/
+/***************************/
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 30px;
+}
+.slick-prev {
+  left: 20px;
+  z-index: 1;
+}
+[dir="rtl"] .slick-prev {
+  right: 20px;
+}
+
+.slick-next {
+  right: 45px;
+}
+[dir="rtl"] .slick-next {
+  left: 45px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  opacity: 1;
+  color: black;
+}
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 1;
+  color: white;
+}
+
+.slick-dots li button:before {
+  margin-top: 10px;
+  font-size: 15px;
+}
