@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin: -10px 0;
+}
+.starContainer {
+  display: flex;
+  gap: 2px;
+}
+.star i {
+  color: rgb(236, 173, 55);
+}

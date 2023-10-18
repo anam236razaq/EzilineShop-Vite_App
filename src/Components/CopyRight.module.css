@@ -1,0 +1,21 @@
+.copyright {
+  background-color: var(--color-dark-3);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #999999;
+}
+hr {
+  width: 95%;
+  background-color: var(--color-border-1);
+}
+.copyRightText a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 18px;
+}
+.copyRightText a:hover {
+  text-decoration: underline;
+}

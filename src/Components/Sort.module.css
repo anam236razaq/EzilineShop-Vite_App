@@ -1,0 +1,36 @@
+.sortProducts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.sortContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sortBtn {
+  background-color: transparent;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border-1);
+}
+.sortBtn i {
+  font-size: 20px;
+}
+.sortBtn:hover,
+.active {
+  border: 1px solid var(--color-btn-2);
+  color: var(--color-btn-2);
+}
+.sorting select {
+  padding: 17px 18px;
+  border: 1px solid var(--color-border-1);
+  font-size: 16px;
+}
+.sorting select:focus {
+  outline: none;
+}
+.results p {
+  font-weight: 500;
+  font-size: 18px;
+}

@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  padding: 10px;
+  background-color: var(--color-link-1);
+  color: var(--color-light-1);
+  outline: none;
+  border: none;
+  font-size: 14px;
+}

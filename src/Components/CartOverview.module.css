@@ -1,0 +1,21 @@
+.cart {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 80px;
+  gap: 4px;
+}
+.cart a {
+  text-decoration: none;
+  color: var(--color-dark-3);
+}
+.cart i {
+  font-size: 30px;
+  margin: 4px 10px 0 0;
+}
+.cart span {
+  font-size: 19px;
+}
+.cartPrice {
+  color: var(--color-btn-2);
+  font-weight: 500;
+}

@@ -1,0 +1,133 @@
+/***********Header*********/
+/*************************/
+
+.header {
+  border-bottom: 1px solid var(--color-border-1);
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.header a {
+  text-decoration: none;
+  color: var(--color-link-1);
+}
+.headerText {
+  width: 73%;
+  margin: 0 50px;
+  overflow: hidden;
+}
+.headerText p {
+  color: var(--color-btn-2);
+  word-spacing: 1px;
+  animation: move-rtl 30s linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/***********Login*********/
+/*************************/
+
+.loginCont {
+  width: 20%;
+  margin: 0 40px 0 15px;
+}
+.login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginText {
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.loginText i {
+  font-size: 16px;
+  color: var(--color-link-1);
+  margin-right: 10px;
+}
+.loginText span:hover {
+  color: var(--color-btn-2);
+}
+.loginForm {
+  margin-top: 460px;
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  background-color: var(--color-light-1);
+  z-index: 1;
+  border: 1px solid var(--color-border-1);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.loginForm::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: var(--color-light-1);
+  border-left: 1px solid var(--color-border-1);
+  border-top: 1px solid var(--color-border-1);
+  left: 50%;
+  top: -8px;
+  transform: translate(-50%) rotate(45deg);
+}
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.loginForm label {
+  margin-bottom: 8px;
+}
+.loginForm input {
+  padding: 14px 0 14px 7px;
+  margin-bottom: 20px;
+  border: 1px solid var(--color-border-1);
+  outline: none;
+  font-size: 16px;
+}
+.btn {
+  width: 45%;
+  padding: 16px 0;
+  border: none;
+  background-color: var(--color-btn-2);
+  color: var(--color-light-1);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: var(--color-dark-1);
+}
+.loginForm a {
+  color: var(--color-dark-1);
+}
+.loginForm a:hover {
+  color: var(--color-btn-2);
+}
+.loginText:hover + .loginForm,
+.loginForm:hover {
+  opacity: 1;
+  pointer-events: auto;
+}
+.message {
+  text-align: center;
+  font-size: 16px;
+}
+.forgot {
+  margin: 20px;
+}
